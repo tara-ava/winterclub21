@@ -7,19 +7,18 @@
 .title {
   font-family: Rubik Mono One;
   color: white;
-  text-shadow: 3px 3px 2px  #e27d5f;;
+  text-shadow: 3px 3px 2px  #ca6f53;
 }
-.desc {
+.desccontent {
   font-family: 'Sora';
-  font-size: 23px;
-  color: white;
-  text-shadow: 3px 3px 2px  #e27d5f;;
+  color: rgb(131, 77, 60);
+  font-weight: 550;
 }
 .descindex {
   font-family: 'Sora';
   font-size: 20px;
   color: white;
-  text-shadow: 3px 3px 2px  #e27d5f;;
+  text-shadow: 3px 3px 2px  #ca6f53;
 }
 .sans {
   font-family: Sora;
@@ -37,11 +36,34 @@
   background-color: #e27d5f;
 }
 .bodytopic {
-  background-color:khaki;
+  background-color:#f0e68c;
 }
 .content {
   background-color:  #7dc2ad;
 }
 .containerindex {
   background-color: #e8a87c;
+}
+.containertopic {
+  background-color: khaki;
+}
+.titletopic {
+  font-family: Rubik Mono One;
+  color: black;
+}
+.desctopic {
+  font-family: 'Sora';
+  font-size: 20px;
+  color: black;
+}
+.headertopic {
+  font-family: MADE Sunflower;
+  color: white;
+  text-shadow: 3px 3px 2px  #ca6f53;
+}
+.headercontent {
+  font-family: Sora;
+  color: white;
+  text-shadow: 3px 3px 2px  #ca6f53;
+  font-weight: 900;
 }
