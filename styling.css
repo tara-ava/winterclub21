@@ -7,24 +7,24 @@
 .title {
   font-family: Rubik Mono One;
   color: white;
-  text-shadow: 3px 3px 2px  #ca6f53;
+  text-shadow: 3px 3px 2px  #7c3939;
 }
 .desccontent {
   font-family: 'Sora';
-  color: rgb(131, 77, 60);
+  color: #441b1b;;
   font-weight: 550;
 }
 .descindex {
   font-family: 'Sora';
   font-size: 20px;
   color: white;
-  text-shadow: 3px 3px 2px  #ca6f53;
+  text-shadow: 3px 3px 2px  #7c3939;
 }
 .sans {
   font-family: Sora;
 }
 .navbarstylehome {
-  background-color: #41b3a3;
+  background-color: #00A19D;
 }
 .navbarstyletopic {
   background-color: #e27e5e;
@@ -33,7 +33,7 @@
   color: white;
 }
 .bodyhome {
-  background-color: #e27d5f;
+  background-color: #FFF8E5;
 }
 .bodytopic {
   background-color:#f0e68c;
@@ -42,10 +42,10 @@
   background-color:  #7dc2ad;
 }
 .containerindex {
-  background-color: #e8a87c;
+  background-color: #E05D5D;
 }
 .containertopic {
-  background-color: khaki;
+  background-color: #FFB344;
 }
 .titletopic {
   font-family: Rubik Mono One;
@@ -59,11 +59,11 @@
 .headertopic {
   font-family: MADE Sunflower;
   color: white;
-  text-shadow: 3px 3px 2px  #ca6f53;
+  text-shadow: 3px 3px 2px  #7c3939;;
 }
 .headercontent {
   font-family: Sora;
   color: white;
-  text-shadow: 3px 3px 2px  #ca6f53;
+  text-shadow: 3px 3px 2px  #7c3939;;
   font-weight: 900;
 }
