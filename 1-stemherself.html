@@ -3,31 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Fixed Layout Example</title>
+<title>Sisters in STEM - STEM Herself</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="styling.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark navbarstyle">
     <div class="container-fluid">
-        <a href="index.html" class="navbar-brand">Sisters in STEM</a>
+        <a href="index.html" class="navbar-brand navs" style="font-family:MADE Sunflower; font-size: 30;">Sisters in STEM</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link active">HOME</a>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=issue>ISSUES</a>
+                <a href="index.html" class="nav-item nav-link active sans navs" id="navs" >HOME</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">ISSUES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="1-stemherself.html">STEM Herself</a></li>
-                      <li><a class="dropdown-item" href="2-thegap.html">The Big Gap</a></li>
-                      <li><a class="dropdown-item" href="3-closingthegap.html">Closing The Gap</a></li>
+                      <li><a class="dropdown-item mono" href="1-stemherself.html">STEM Herself</a></li>
+                      <li><a class="dropdown-item mono" href="2-thegap.html">The Big Gap</a></li>
+                      <li><a class="dropdown-item mono" href="3-closingthegap.html">Closing The Gap</a></li>
                     </ul>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=resource>RESOURCES</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">RESOURCES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="#">Articles</a></li>
-                      <li><a class="dropdown-item" href="#">Research</a></li>
-                      <li><a class="dropdown-item" href="#">Events</a></li>
+                      <li><a class="dropdown-item mono" href="#">Articles</a></li>
+                      <li><a class="dropdown-item mono" href="#">Research</a></li>
+                      <li><a class="dropdown-item mono" href="#">Events</a></li>
                     </ul>
             </div>
             <div class="navbar-nav ms-auto">
@@ -38,49 +39,62 @@
         </div>
     </div>
 </nav>
-<div>
-    <div class="container-fluid">
-        <div class="p-5 bg-light rounded-3 mb-3">
-            <h1>STEM Herself</h1>
-            <p class="lead">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-        </div>
+<div class="container-fluid">
+  <div class="row p-5 rounded-3 containerindex">
+    <div class="col-md-2" style="padding-right: 0px;">
+    <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
     </div>
-    <div class="container">
-        <div>
-            <div class="row my-5">
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h2>STEM HERSELF</h2>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-8">
-                        <h3>What is STEM?</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                        <div class="col-md-2" style="padding-right: 0px;">
-                        <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h3>What is STEM?</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        </div>
+    <div class="col-md-8 ">
+        <h2 class="header2"  style="padding-top:60px;">STEM Herself</h2>
+        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
     </div>
 </div>
-<div>
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:khaki;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">What is STEM?</h2>
+          <p>STEM education can strengthen problem-solving skills. And the U.S. Department of Education says STEM is essential for preparing graduates for the 21st century workforce. But what is STEM education? And what's the difference between STEM and STEAM?
+
+            <br><br>STEM stands for science, technology, engineering, and math. The discipline also includes computer science. STEAM adds in the arts to emphasize innovative and creative approaches to problem-solving.
+            
+            <br><br>Liberal arts disciplines can help students build the critical thinking skills necessary for understanding the implications of technology. As a result, engineers with an arts background often can better visualize their designs. Scientists with liberal arts training may also be better prepared to take social factors and ethics into consideration when conducting research.
+            
+            <br><br>Future innovators can benefit from STEAM education and its focus on project-based, interdisciplinary learning. A STEM/STEAM education can help prepare graduates for high-paying careers in growing industries</p></p>
+      </div>
+  </div>
+</div>
+      
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:khaki;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Percentages of women in STEM</h2>
+          <p>Overall, the percentage of female graduates with core STEM degrees is steadily growing, however, the split is still just 26%. This figure is also translated in the female STEM workforce, with women making up 24%. This shows that some work needs to be done to encourage women to both study these subjects, and transition into the workforce.
+
+            Specifically, computer science and engineering and technology fields show the largest gender imbalances, from current students, to graduates and the workforce figures.
+            
+            Physical science-related degrees have seen a year on year increase in the number of female graduates, showing that efforts to encourage women to study chemistry and physics-based subjects have been successful.
+            
+            STEM Women recently published a fascinating Whitepaper that covers themes surrounding gender diversity in STEM industries, the gender pay gap, the impact COVID-19 has had on female STEM students, the importance of mentoring schemes, and much more. We surveyed female STEM students across 2019 and 2020 with the aim of understanding the reasons why young women choose certain career paths and the hurdles they may come up against during their job search</p>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:khaki;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">CLOSING THE GAP</h2>
+          <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+      </div>
+  </div>
 </div>
 </body>
 </html>

@@ -3,31 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Fixed Layout Example</title>
+<title>Sisters in STEM - The Big Gap</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="styling.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark navbarstyle">
     <div class="container-fluid">
-        <a href="index.html" class="navbar-brand">Sisters in STEM</a>
+        <a href="index.html" class="navbar-brand navs" style="font-family:MADE Sunflower; font-size: 30;">Sisters in STEM</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link active">HOME</a>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=issue>ISSUES</a>
+                <a href="index.html" class="nav-item nav-link active sans navs" id="navs" >HOME</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">ISSUES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="1-stemherself.html">STEM Herself</a></li>
-                      <li><a class="dropdown-item" href="2-thegap.html">The Big Gap</a></li>
-                      <li><a class="dropdown-item" href="3-closingthegap.html">Closing The Gap</a></li>
+                      <li><a class="dropdown-item mono" href="1-stemherself.html">STEM Herself</a></li>
+                      <li><a class="dropdown-item mono" href="2-thegap.html">The Big Gap</a></li>
+                      <li><a class="dropdown-item mono" href="3-closingthegap.html">Closing The Gap</a></li>
                     </ul>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=resource>RESOURCES</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">RESOURCES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="#">Articles</a></li>
-                      <li><a class="dropdown-item" href="#">Research</a></li>
-                      <li><a class="dropdown-item" href="#">Events</a></li>
+                      <li><a class="dropdown-item mono" href="#">Articles</a></li>
+                      <li><a class="dropdown-item mono" href="#">Research</a></li>
+                      <li><a class="dropdown-item mono" href="#">Events</a></li>
                     </ul>
             </div>
             <div class="navbar-nav ms-auto">
@@ -38,49 +39,64 @@
         </div>
     </div>
 </nav>
-<div>
-    <div class="container-fluid">
-        <div class="p-5 bg-light rounded-3 mb-3">
-            <h1>The Big Gap</h1>
-            <p class="lead">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-        </div>
+<div class="container-fluid">
+  <div class="row p-5 rounded-3" style="background-color:aqua;">
+    <div class="col-md-2" style="padding-right: 0px;">
+    <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
     </div>
-    <div class="container">
-        <div>
-            <div class="row my-5">
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h2>Bias Taught by Society</h2>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-8">
-                        <h3>Challenges Women Face</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                        <div class="col-md-2" style="padding-right: 0px;">
-                        <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h3>What is STEM?</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        </div>
+    <div class="col-md-8 ">
+        <h2 style="padding-top:60px;">The Big Gap</h2>
+        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
     </div>
 </div>
-<div>
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">A bias that was taught.</h2>
+          <p>The Science, Technology, Engineering and Math (STEM) fields will account for some of the fastest growing — and highest paying — jobs of the future. Yet girls and women are still not on par with boys and men in preparing for or entering into these fields.
+
+            <BR><BR>Gender bias in school remains a significant barrier to girls’ progress in STEM. Starting in early childhood, teachers and parents provide explicit and implicit messages that boys and men are “better” at math and science — although there is no evidence for that. Black girls and women  and Latinas are even more likely to be dissuaded from pursuing math and science, because they face discrimination and have less access to critical resources, opportunities and role models.
+            
+            <BR><BR>Research shows that there is no inherent difference in math and science capability between girls and boys. It’s also a myth that girls aren’t interested in science: In elementary, middle, and high school, girls and boys take math and science courses in roughly equal numbers, except in engineering and AP computer science, according to the National Science Foundation. One study found that the apparent gender gap in mathematics is smaller in countries with greater gender equality, suggesting that gender differences in math are largely due to cultural and environmental factors, not ability.
+            </p>
+      </div>
+  </div>
+</div>
+      
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Challenges women face as STEM workforces.</h2>
+          <h5>Gender Pay Gap</h5>
+          <p>Women typically earn less than men in STEM. In 2019, men in STEM reported a median salary of $90,000, while women in STEM earned $66,200 — or around 74% of men's earnings. And while the gender pay gap may be shrinking, progress is slow. Over the past 60 years, the wage gap has narrowed by an average of less than half a percent per year</p>
+          <h5>Mentorship Opportunities</h5>
+          <p>Mentor relationships can help women navigate college, enter the workforce, and advance their careers. Unfortunately, due to a relative lack of full-time female faculty members — especially in STEM disciplines — many women feel they have fewer mentorship opportunities than men. The problem is even greater for women of color. Black, Latina, Pacific Islander, and Indigenous women hold only 6% of full-time faculty positions.</p>
+          <h5>Gender Stereotypes</h5>
+          <p>Gender stereotypes about women's abilities can begin to affect girls as young as 3-4 years old. And they continue to affect women throughout their STEM education and careers. Harmful stereotypes can undermine confidence in technical subjects and discourage women from pursuing STEM jobs.</p>
+          <h5>Exclusionary Policies</h5>
+          <p>Unconscious bias harms women in STEM. So do exclusionary policies — even policies that do not look biased on the surface. For example, a lack of parental leave affects women more than men.</p>
+
+
+        </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">CLOSING THE GAP</h2>
+          <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
+      </div>
+  </div>
 </div>
 </body>
 </html>

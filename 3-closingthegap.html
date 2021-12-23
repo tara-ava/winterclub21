@@ -3,31 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Fixed Layout Example</title>
+<title>Sisters in STEM - Closing The Gap</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark navbarstyle">
     <div class="container-fluid">
-        <a href="index.html" class="navbar-brand">Sisters in STEM</a>
+        <a href="index.html" class="navbar-brand navs" style="font-family:MADE Sunflower; font-size: 30;">Sisters in STEM</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="index.html" class="nav-item nav-link active">HOME</a>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=issue>ISSUES</a>
+                <a href="index.html" class="nav-item nav-link active sans navs" id="navs" >HOME</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">ISSUES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="1-stemherself.html">STEM Herself</a></li>
-                      <li><a class="dropdown-item" href="2-thegap.html">The Big Gap</a></li>
-                      <li><a class="dropdown-item" href="3-closingthegap.html">Closing The Gap</a></li>
+                      <li><a class="dropdown-item mono" href="1-stemherself.html">STEM Herself</a></li>
+                      <li><a class="dropdown-item mono" href="2-thegap.html">The Big Gap</a></li>
+                      <li><a class="dropdown-item mono" href="3-closingthegap.html">Closing The Gap</a></li>
                     </ul>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id=resource>RESOURCES</a>
+                <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">RESOURCES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item" href="#">Articles</a></li>
-                      <li><a class="dropdown-item" href="#">Research</a></li>
-                      <li><a class="dropdown-item" href="#">Events</a></li>
+                      <li><a class="dropdown-item mono" href="#">Articles</a></li>
+                      <li><a class="dropdown-item mono" href="#">Research</a></li>
+                      <li><a class="dropdown-item mono" href="#">Events</a></li>
                     </ul>
             </div>
             <div class="navbar-nav ms-auto">
@@ -38,49 +39,86 @@
         </div>
     </div>
 </nav>
-<div>
-    <div class="container-fluid">
-        <div class="p-5 bg-light rounded-3 mb-3">
-            <h1>Closing The Gap</h1>
-            <p class="lead">lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-        </div>
+<div class="container-fluid">
+  <div class="row p-5 rounded-3" style="background-color:aqua;">
+    <div class="col-md-2" style="padding-right: 0px;">
+    <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
     </div>
-    <div class="container">
-        <div>
-            <div class="row my-5">
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h2>Bias Taught by Society</h2>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-8">
-                        <h3>Equipping girls and women with confindence and skills to be leaders</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                        <div class="col-md-2" style="padding-right: 0px;">
-                        <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                </div>
-        
-                <div class="row my-5">
-                    <div class="col-md-2" style="padding-right: 0px;">
-                    <img src="wallpaper.jpg" class="img-fluid">
-                    </div>
-                    <div class="col-md-8 ">
-                        <h3>Promoting women</h3>
-                        <p>lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum</p>
-                    </div>
-                </div>
-        </div>
+    <div class="col-md-8 ">
+        <h2 style="padding-top:60px;">Closing The Gap</h2>
+        <p>With so many challenges facing women pursuing STEM careers, how can women succeed in STEM fields? While women cannot single-handedly change systemic issues and barriers in STEM, they can take steps to improve their chances of success.</p>
     </div>
 </div>
-<div>
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Instill a mindset of confidence.</h2>
+          <p>Raise awareness that girls and women are as capable as boys — when given encouragement and educational opportunities.
+            Promote public awareness to parents about how they can encourage daughters as much as sons in math and science — supporting learning opportunities and positive messages about their abilities.
+            Teach girls, teachers and parents that math skills are learned and change over time — promoting a growth mindset that empowers girls to embrace challenges.
+            Emphasize strong and visible role models of women and women of color in math and science fields.</p>
+      </div>
+  </div>
+</div>
+      
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Prioritize from preschool through high school.</h2>
+          <p>Provide professional education to teachers– addressing implicit and systemic biases —  to raise awareness about girls’ math abilities, avoid passing on math anxiety and ensure boys and girls are held to the same standards.
+            Encourage girls and women to take math and science classes — including advanced classes. Reduce tracking and high-stakes assessment in early grades that reinforce biases and stereotypes.
+            Ensure every student is exposed to engineering and computer science, and Next Generation Science Standards in K–12.
+            Change how classes are taught by connecting STEM experiences to girls’ lives, promoting active, hands-on learning and emphasizing ways STEM is collaborative and community-oriented.
+            Teach girls of color math through open-ended and co-created problem posing and discovery.
+            Expand after-school and summer STEM opportunities for girls.
+            Increase awareness of higher education and career opportunities, pathway opportunities, role models and mentoring programs with women and women of color in STEM for girls.
+            The STEM Equity Pipeline is an example of a successful program boosting girls’ enrollment, performance and retention in STEM classes, and so far as reached tens of thousands of students in 19 states.
+            Create education programs, such as outreach and retention programs at the elementary, secondary, and postsecondary levels, to engage women and girls in STEM activities, courses and career development.</p>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Encourage college women to major in the STEM fields.</h2>
+          <p>Design courses and change environments and practices in STEM studies to be more welcoming for women.
+            Prioritize diverse, inclusive and respectful environments, and strong, diverse leadership.
+            Diffuse hierarchical and dependent relationships between trainees and faculty, changing power dynamics.
+            Make the entire academic community responsible for reducing and preventing sexual harassment, ensure transparency and accountability, and support targets of sexual harassment.
+            Campuses should fully enforce Title IX in science, technology, engineering, and math.
+            Promote mentorship, sponsorship networking and incorporate male ally programs.</p>
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row p-5 rounded-3 my-3" style="background-color:aqua;">
+      <div class="col-md-2" style="padding-right: 0px;">
+      <img src="wallpaper.jpg" class="img-fluid" style="padding-top:60px;">
+      </div>
+      <div class="col-md-8 ">
+          <h2 style="padding-top:60px;">Urge STEM employers to recruit, hire and promote women.</h2>
+          <p>Recruit female employees and work to retain and promote women throughout their careers with strong advancement pipelines and continued professional development and leadership training.
+            Promote welcoming work environments, including providing pay equity; flexibility; strong family and medical leave policies; inclusion and anti-bias training; mentorship, networking and ally-ship opportunities; and strong anti-discrimination and anti-harassment policies.
+            Provide research funding designed to promote women in STEM and ensure all federally funded programs comply with civil rights laws designed to tackle sex discrimination.
+            Enforce and strengthen Title IX to make sure federal resources are not used to support discriminatory practices in education programs and that schools understand their responsibilities for ensuring equity in STEM education.
+            Ensure federal grant processes allow for flexibility relative to the life events, and encourage paid family leave and paid sick days.
+            States should establish high-quality and rigorous K-12 education standards to ensure that all students are taught to the same high expectations.
+        </p>
+      </div>
+  </div>
 </div>
 </body>
 </html>
