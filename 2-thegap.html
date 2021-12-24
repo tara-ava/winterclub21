@@ -8,8 +8,9 @@
 <link type="text/css" rel="stylesheet" href="styling.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="bodyhome">
-<nav class="navbar navbar-expand-lg navbar-dark navbarstylehome">
+
+<body class="bodyhome">  
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top  navbarstylehome">
     <div class="container-fluid">
         <a href="index.html" class="navbar-brand navs" style="font-family:MADE Sunflower; font-size: 30;">Sisters in STEM</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -20,26 +21,27 @@
                 <a href="index.html" class="nav-item nav-link active sans navs" id="navs" >HOME</a>
                 <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">TOPIC</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item mono" href="1-stemintro.html">Intro to STEM</a></li>
-                      <li><a class="dropdown-item mono" href="2-thegap.html">The Big Gap</a></li>
-                      <li><a class="dropdown-item mono" href="3-closingthegap.html">Closing The Gap</a></li>
+                      <li><a class="dropdown-item dropdownstyle" href="1-stemintro.html">INTRO TO STEM</a></li>
+                      <li><a class="dropdown-item dropdownstyle" href="2-thegap.html">THE BIG GAP</a></li>
+                      <li><a class="dropdown-item dropdownstyle" href="3-closingthegap.html">CLOSING THE GAP</a></li>
                     </ul>
                 <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">RESOURCES</a>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
-                      <li><a class="dropdown-item mono" href="https://girlswhocode.com/">Girls Who Code</a></li>
-                      <li><a class="dropdown-item mono" href="https://www.aauw.org/issues/education/stem/">AAUW</a></li>
-                      <li><a class="dropdown-item mono" href="https://www.generationgirl.org/">Generation Girl</a></li>
-                      <li><a class="dropdown-item mono" href="https://www.youtube.com/watch?v=FEeTLopLkEo/">TED x PSU</a></li>
+                      <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://girlswhocode.com/">Girls Who Code</a></li>
+                      <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.aauw.org/issues/education/stem/">AAUW</a></li>
+                      <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.generationgirl.org/">Generation Girl</a></li>
+                      <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.youtube.com/watch?v=FEeTLopLkEo/">TEDxPSU</a></li>
                     </ul>
             </div>
             <div class="navbar-nav ms-auto">
-              <a class="nav-link px-3" aria-current="page" href="https://mobile.twitter.com/explore" id=home><img src="socicon-twitter.png" style="height: 30px;"></a>
-              <a class="nav-link px-3" aria-current="page" href="https://www.instagram.com/" id=home><img src="socicon-insta.png" style="height: 30px;"></a>
-              <a class="nav-link px-3" aria-current="page" href="https://www.facebook.com/" id=home><img src="socicon-fb.png" style="height: 30px;"></a>
+              <a class="nav-link px-3" aria-current="page" target="_blank" href="https://mobile.twitter.com/explore" id=home><img src="socicon-twitter.png" style="height: 30px;"></a>
+              <a class="nav-link px-3" aria-current="page" target="_blank" href="https://www.instagram.com/" id=home><img src="socicon-insta.png" style="height: 30px;"></a>
+              <a class="nav-link px-3" aria-current="page" target="_blank" href="https://www.facebook.com/" id=home><img src="socicon-fb.png" style="height: 30px;"></a>
             </div>
         </div>
     </div>
 </nav>
+
 <div class="container-fluid">
   <div class="row p-5 containertopic">
     <div class="col-md-3" style="padding-right: 0px;">
@@ -47,15 +49,16 @@
     </div>
     <div class="col-md-8 ">
         <h1 class="mono" style="padding-top:60px;">The Big Gap</h1>
-        <p class="sans">Girls and women are systematically tracked away from science and math throughout their educations, limiting their training and options to go into these fields as adults.</p>
+        <p class="desctopic">Girls and women are systematically tracked away from science and math throughout their educations, limiting their training and options to go into these fields as adults.</p>
     </div>
 </div>
-<div>
+
+<div class="container rounded-3 containerindex">
   <div class="container rounded-3 containerindex">
     <div class="row px-5 pt-5 rounded-3 mb-0 mt-3">
-        <img src="images/biggapcontent.png" class="img-fluid" style="padding-top:0px;">
+        <img src="images/biggapcontent.png" class="img-fluid rounded-3">
     </div>
-      <div class="row p-5 rounded-3 mb-0 mt-3">
+    <div class="row p-5 rounded-3 mb-0 mt-3">
           <h2 class="headertopic" style="padding-top:0px;">A bias that was taught.</h2>
           <p class="desccontent">The Science, Technology, Engineering and Math (STEM) fields will account for some of the fastest growing — and highest paying — jobs of the future. Yet girls and women are still not on par with boys and men in preparing for or entering into these fields.
 
@@ -63,51 +66,50 @@
             
             <BR><BR>Research shows that there is no inherent difference in math and science capability between girls and boys. It’s also a myth that girls aren’t interested in science: In elementary, middle, and high school, girls and boys take math and science courses in roughly equal numbers, except in engineering and AP computer science, according to the National Science Foundation. One study found that the apparent gender gap in mathematics is smaller in countries with greater gender equality, suggesting that gender differences in math are largely due to cultural and environmental factors, not ability.
             </p>
-          </div>
-        </div>
       </div>
     </div>
 
-      
-<div class="container rounded-3 containerindex">
-  <div class="row p-5 py-0 rounded-3 mt-0 mb-0">
-      <div class="row-md-8 ">
-        <h2 class="headertopic" style="padding-top:0px;">Challenges women face as STEM workforces.</h2>
-          <ul>
-            <li>
-              <h5 class="headercontent">GENDER PAY GAPS</h5>
-              <p class="desccontent">Women typically earn less than men in STEM. In 2019, men in STEM reported a median salary of $90,000, while women in STEM earned $66,200 — or around 74% of men's earnings. And while the gender pay gap may be shrinking, progress is slow. Over the past 60 years, the wage gap has narrowed by an average of less than half a percent per year</p>
-            </li>
-            <li>
-              <h5 class="headercontent">MENTORSHIP OPPORTUNITIES</h5>
-              <p class="desccontent">Mentor relationships can help women navigate college, enter the workforce, and advance their careers. Unfortunately, due to a relative lack of full-time female faculty members — especially in STEM disciplines — many women feel they have fewer mentorship opportunities than men. The problem is even greater for women of color. Black, Latina, Pacific Islander, and Indigenous women hold only 6% of full-time faculty positions.</p>
-            </li>
-            <li>
-              <h5 class="headercontent">GENDER STEREOTYPES</h5>
-              <p class="desccontent">Gender stereotypes about women's abilities can begin to affect girls as young as 3-4 years old. And they continue to affect women throughout their STEM education and careers. Harmful stereotypes can undermine confidence in technical subjects and discourage women from pursuing STEM jobs.</p>
-            </li>            
-            <li>
-              <h5 class="headercontent">EXCLUSIONARY POLICIES</h5>            
-              <p class="desccontent">Unconscious bias harms women in STEM. So do exclusionary policies — even policies that do not look biased on the surface. For example, a lack of parental leave affects women more than men.</p>
-            </li>
-          </ul>
+  <div class="container rounded-3 containerindex">
+    <div class="row p-5 py-0 rounded-3 mt-0 mb-0">
+        <div class="row-md-8 ">
+          <h2 class="headertopic" style="padding-top:0px;">Challenges women face as STEM workforces.</h2>
+            <ul class="ulcontent">
+              <li>
+                <h5 class="headercontent">GENDER PAY GAPS</h5>
+                <p class="desccontent">Women typically earn less than men in STEM. In 2019, men in STEM reported a median salary of $90,000, while women in STEM earned $66,200 — or around 74% of men's earnings. And while the gender pay gap may be shrinking, progress is slow. Over the past 60 years, the wage gap has narrowed by an average of less than half a percent per year</p>
+              </li>
+              <li>
+                <h5 class="headercontent">MENTORSHIP OPPORTUNITIES</h5>
+                <p class="desccontent">Mentor relationships can help women navigate college, enter the workforce, and advance their careers. Unfortunately, due to a relative lack of full-time female faculty members — especially in STEM disciplines — many women feel they have fewer mentorship opportunities than men. The problem is even greater for women of color. Black, Latina, Pacific Islander, and Indigenous women hold only 6% of full-time faculty positions.</p>
+              </li>
+              <li>
+                <h5 class="headercontent">GENDER STEREOTYPES</h5>
+                <p class="desccontent">Gender stereotypes about women's abilities can begin to affect girls as young as 3-4 years old. And they continue to affect women throughout their STEM education and careers. Harmful stereotypes can undermine confidence in technical subjects and discourage women from pursuing STEM jobs.</p>
+              </li>            
+              <li>
+                <h5 class="headercontent">EXCLUSIONARY POLICIES</h5>            
+                <p class="desccontent">Unconscious bias harms women in STEM. So do exclusionary policies — even policies that do not look biased on the surface. For example, a lack of parental leave affects women more than men.</p>
+              </li>
+            </ul>
+          </div>
+    </div>
+  </div>
+
+  <div class="container rounded-3 containerindex">
+    <div class="row p-5 pt-0 rounded-3 mt-0 mb-3">
+        <div class="row-md-8 ">
+            <h2 class="headertopic" style="padding-top:60px;">The future of STEM is women. </h2>
+            <p class="desccontent">Today, women make up 27% of the STEM workforce. That represents a significant increase from 1970, when women held only about 8% of STEM jobs. Women also make up more than half of social scientists and nearly half of professionals in the math, life sciences, and physical sciences fields.
+
+              <br><br>Nonetheless, in computer and engineering jobs, women remain dramatically underrepresented. Women make up around a quarter of computer workers and 15% of engineers. Unfortunately, computer and engineering jobs make up 80% of the STEM workforce. Even worse, representation of women in computing has dropped since 1990, when women made up over 30% of workers.
+              
+              <br><br>The job outlook for STEM occupations remains strong in the coming years. The Bureau of Labor Statistics projects positions in STEM fields to grow by 10.5% from 2020-2030, compared with 7.5% growth for non-STEM fields. What's more, STEM jobs typically offer high salaries. The median STEM salary was nearly $90,000 in 2020 — more than double the median non-STEM salary of around $40,000 per year.
+              
+              <br><br>Thanks to a strong job outlook and high earning potential, STEM careers offer valuable opportunities for many women. Additionally, increasing diversity and inclusion in STEM benefits society as a whole. As a result, the future of STEM will rely on women.</p>
         </div>
+    </div>
   </div>
 </div>
 
-<div class="container rounded-3 containerindex">
-  <div class="row p-5 pt-0 rounded-3 mt-0 mb-3">
-      <div class="row-md-8 ">
-          <h2 class="headertopic" style="padding-top:60px;">The future of STEM is women. </h2>
-          <p class="desccontent">Today, women make up 27% of the STEM workforce. That represents a significant increase from 1970, when women held only about 8% of STEM jobs. Women also make up more than half of social scientists and nearly half of professionals in the math, life sciences, and physical sciences fields.
-
-            <br><br>Nonetheless, in computer and engineering jobs, women remain dramatically underrepresented. Women make up around a quarter of computer workers and 15% of engineers. Unfortunately, computer and engineering jobs make up 80% of the STEM workforce. Even worse, representation of women in computing has dropped since 1990, when women made up over 30% of workers.
-            
-            <br><br>The job outlook for STEM occupations remains strong in the coming years. The Bureau of Labor Statistics projects positions in STEM fields to grow by 10.5% from 2020-2030, compared with 7.5% growth for non-STEM fields. What's more, STEM jobs typically offer high salaries. The median STEM salary was nearly $90,000 in 2020 — more than double the median non-STEM salary of around $40,000 per year.
-            
-            <br><br>Thanks to a strong job outlook and high earning potential, STEM careers offer valuable opportunities for many women. Additionally, increasing diversity and inclusion in STEM benefits society as a whole. As a result, the future of STEM will rely on women.</p>
-      </div>
-  </div>
-</div>
 </body>
 </html>

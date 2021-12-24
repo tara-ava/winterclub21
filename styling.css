@@ -26,20 +26,11 @@
 .navbarstylehome {
   background-color: #00A19D;
 }
-.navbarstyletopic {
-  background-color: #e27e5e;
-}
 .navs {
   color: white;
 }
 .bodyhome {
   background-color: #FFF8E5;
-}
-.bodytopic {
-  background-color:#f0e68c;
-}
-.content {
-  background-color:  #7dc2ad;
 }
 .containerindex {
   background-color: #E05D5D;
@@ -47,14 +38,9 @@
 .containertopic {
   background-color: #FFB344;
 }
-.titletopic {
-  font-family: Rubik Mono One;
-  color: black;
-}
 .desctopic {
   font-family: 'Sora';
-  font-size: 20px;
-  color: black;
+  font-size: 18px;
 }
 .headertopic {
   font-family: MADE Sunflower;
@@ -66,4 +52,12 @@
   color: white;
   text-shadow: 3px 3px 2px  #7c3939;;
   font-weight: 900;
+}
+.dropdownstyle {
+  font-family: Sora;
+  font-weight: 900;
+  font-size: 18px;
+}
+.ulcontent {
+  list-style-image: url('bullets/3.png');
 }
