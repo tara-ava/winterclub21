@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sisters in STEM - Events</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bodyhome">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top  navbarstylehome">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand navs" style="font-family:MADE Sunflower; font-size: 30;">Sisters in STEM</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="/" class="nav-item nav-link active sans navs" id="navs" >HOME</a>
+                    <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">TOPIC</a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                          <li><a class="dropdown-item dropdownstyle" href="/intro-to-stem">INTRO TO STEM</a></li>
+                          <li><a class="dropdown-item dropdownstyle" href="/the-gap">THE BIG GAP</a></li>
+                          <li><a class="dropdown-item dropdownstyle" href="/closing-the-gap">CLOSING THE GAP</a></li>
+                        </ul>
+                    <a href="/events" class="nav-item nav-link active sans navs" id="navs" >EVENTS</a>
+                    <a class="nav-link dropdown-toggle sans navs" data-bs-toggle="dropdown" href="#" id="navs">RESOURCES</a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                          <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://girlswhocode.com/">Girls Who Code</a></li>
+                          <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.aauw.org/issues/education/stem/">AAUW</a></li>
+                          <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.generationgirl.org/">Generation Girl</a></li>
+                          <li><a class="dropdown-item dropdownstyle" target="_blank" href="https://www.youtube.com/watch?v=FEeTLopLkEo/">TEDxPSU</a></li>
+                        </ul>
+                
+                </div>
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link px-3" aria-current="page" target="_blank" href="https://mobile.twitter.com/explore" id=home><img src="/static/socicon-twitter.png" style="height: 30px;"></a>
+                  <a class="nav-link px-3" aria-current="page" target="_blank" href="https://www.instagram.com/" id=home><img src="/static/socicon-insta.png" style="height: 30px;"></a>
+                  <a class="nav-link px-3" aria-current="page" target="_blank" href="https://www.facebook.com/" id=home><img src="/static/socicon-fb.png" style="height: 30px;"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="p-5 containertopic container-responsive">
+       <h1 class=header2 style="padding-top:80px; font-size: 30;">Looking to get involved?</h1>
+       <p style="padding-bottom:20px; font-family:Sora; font-size: 30;" class="lead">Sisters in STEM are on a mission to close the gender gap in STEM workfields. We believe the future of STEM is women, therefore are striving to reach girls all around the world with our online campaign and resources. We’re not just preparing our girls to enter the workforce - we’re preparing them to lead it, to improve it, to completely and totally transform it. Join us in our upcoming online events!</p>
+       <p><a href="/loginform" class="btn btn-success sans">Check my Events!</a></p>
+    </div>
+{% for e in pevents %}
+<div class="container">
+    <div class="row p-5 rounded-3 my-3 containerindex">
+        <div class="col-md-3" style="padding-right: 0px;">
+        <img src="static/eventsicon.png" class="img-fluid">
+        </div>
+        <div class="col-md-8 ">
+            <h3 class=title style="padding-top:55px;">{{ e[1] }}</h3>
+            <p class="descindex">{{ e[2] }}</p>
+            <p class='desccontent'> Event date: {{ e[3] }}</p>
+            <p class='desccontent'> Location: Online via Zoom</p>
+           
+            <p><a href="{{ url_for('app_regform', eid=e[0]) }}" class="btn btn-success sans">Register</a></p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+        
+
+</body>
+</html>
